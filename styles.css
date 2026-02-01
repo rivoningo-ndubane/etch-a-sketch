@@ -1,0 +1,49 @@
+* {
+    /* outline: 2px solid purple; */
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    box-sizing: border-box;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    background: rgb(209, 199, 199);
+    padding: 2px;
+}
+
+button {
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0px solid;
+    padding: 0 1rem;
+    background-color: hsl(0, 0%, 94%);
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+
+    height: 95%;
+}
+
+.outer {
+    flex: 1;
+    display: flex;
+}
+
+.square {
+    flex: 1;
+    border: 1px solid;
+    border-collapse: separate;
+}
